@@ -2,13 +2,16 @@ GEM
   remote: http://rubygems.org/
   specs:
     activesupport (2.3.8)
-    haml (3.0.24)
+    haml (5.0.0)
+      temple (>= 0.8.0)
+      tilt
     rack (1.2.1)
     rake (0.8.7)
     rdiscount (1.6.5)
     sinatra (1.1.0)
       rack (~> 1.1)
       tilt (~> 1.1)
+    temple (0.8.2)
     tilt (1.1)
     vegas (0.1.8)
       rack (>= 1.0.0)
@@ -19,7 +22,7 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport (= 2.3.8)
-  haml (= 3.0.24)
+  haml (= 5.0.0)
   rake
   rdiscount
   sinatra
